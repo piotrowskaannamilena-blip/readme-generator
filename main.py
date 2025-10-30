@@ -40,7 +40,6 @@ def main():
         choices = license,
         default ="MIT License"
     ).execute()
-  #  author_info = inquirer.text(message="Author Name: ").execute()
     contact_info = inquirer.text(message="## Contact Information: ").execute()
 
     # Generate README.md content
