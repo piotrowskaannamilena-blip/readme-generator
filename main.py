@@ -40,6 +40,7 @@ def main():
         choices = license,
         default ="MIT License"
     ).execute()
+  #  author_info = inquirer.text(message="Author Name: ").execute()
     contact_info = inquirer.text(message="## Contact Information: ").execute()
 
     # Generate README.md content
@@ -50,6 +51,12 @@ def main():
 
 ## Installation Instructions 
 {installation_instructions}
+clone the project with: 
+git clone https://github.com/piotrowskaannamilena-blip/readme-generator
+In a terminal, in the project directory: pip install -r requirements.txt
+Run the program: 
+python3 main.py 
+python main.py
 
 ### 1. Install Python
 
