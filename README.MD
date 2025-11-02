@@ -1,7 +1,5 @@
 
-<p align="center" width="100%">
-<video src="https://youtu.be/zzbJi6_FMxc" width="80%" controls></video>
-</p>
+https://youtu.be/zzbJi6_FMxc
 
 ## Python README File Generator 
 
